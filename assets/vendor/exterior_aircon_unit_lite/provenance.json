@@ -1,0 +1,13 @@
+{
+  "author": "[redacted]",
+  "notes": "CC0; Poly Haven exterior_aircon_unit by Monsta3D https://polyhaven.com/a/exterior_aircon_unit; original mirror license https://github.com/avdrav1/drone-sports/blob/280c3a5c94226dd4e028995723d802a55ea02d52/data/LICENSES.md; 512px/1499-triangle derivative, source glTF SHA256 d98bc6dfb820d0a76c254de7d152f44bc7b60d325ed9e18fd9a0a4ef1d9b4ee2, all six downloaded files verified against Git blobs, exported Blender 4.3.2 with tangents.",
+  "origin": "imported",
+  "provider": "Poly Haven",
+  "schema": "game_dev.asset_provenance.v1",
+  "source": {
+    "bytes": 325832,
+    "fileName": "exterior_aircon_unit_optimized.glb",
+    "sha256": "9417710ec7fd744057f2141f55b7c462dc32bf121dd8da03eeec16f29c7e2a55"
+  },
+  "sourceUri": "https://github.com/avdrav1/drone-sports/tree/280c3a5c94226dd4e028995723d802a55ea02d52/data/models/aircon"
+}

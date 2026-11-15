@@ -1,0 +1,44 @@
+{
+  "assetId": "wheelchair_01_lite",
+  "displayName": "wheelchair_01_lite",
+  "files": [
+    {
+      "bytes": 1567380,
+      "kind": "model",
+      "path": "model.glb",
+      "sha256": "1bf91597d0b5b873b28522d5ac602b25dee8bbb7fde716aac311e314bf194479"
+    },
+    {
+      "bytes": 1780,
+      "kind": "metadata",
+      "path": "metadata.json",
+      "sha256": "d8d8834222078aac3cb5d49b8070e7585fc394c63acb76f2732f80616131f3aa"
+    },
+    {
+      "bytes": 610,
+      "kind": "provenance",
+      "path": "provenance.json",
+      "sha256": "aeed15932022b73591a37699eb19b87dc7026242352718efeca67bc6f01f45eb"
+    },
+    {
+      "bytes": 3579,
+      "kind": "validation",
+      "path": "validation.json",
+      "sha256": "cb71d40ec155e8d13af3b7e78591a8e7183c9d0c04c41de8fb8c0309bb17995e"
+    }
+  ],
+  "license": "CC0-1.0",
+  "model": "model.glb",
+  "packageId": "pkg_853742a0b119fd61c44d6385",
+  "provenance": {
+    "origin": "imported",
+    "provider": "Poly Haven"
+  },
+  "schema": "game_dev.asset_package.v1",
+  "validation": {
+    "errorCount": 0,
+    "passed": true,
+    "warningCount": 0
+  },
+  "version": "1.0.0"
+}

@@ -1,0 +1,21 @@
+Original Taiwan Props asset dedication
+
+To the extent possible under law, the authors waive copyright and related or
+neighboring rights to the original models, materials, and label artwork in this
+package under CC0 1.0 Universal.
+
+CC0 1.0 Universal:
+https://creativecommons.org/publicdomain/zero/1.0/
+https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+This covers the original procedural meshes, exported FBX/GLB models, color
+specifications, original sign designs and preview renders. It does not relicense
+third-party font software. Noto Sans CJK TC glyphs were rendered into label
+images. The locally bundled Taiwan Street TC subset remains under SIL OFL 1.1,
+not CC0; see NotoSansCJK-OFL.txt and ../assets/fonts/README.md.
+
+No paid stock asset, real store logo, proprietary postal logo or downloaded
+third-party mesh is included. The original geometry was generated with code.
+No warranty is made about suitability, performance or Unity import behavior.
+
+Code in src/ and scripts/ is under the separate MIT license.

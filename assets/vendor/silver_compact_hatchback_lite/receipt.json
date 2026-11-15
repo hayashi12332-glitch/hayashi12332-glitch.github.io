@@ -1,0 +1,23 @@
+{
+  "completedAt": "2026-11-12T09:27:28.124Z",
+  "destination": {
+    "assetId": "silver_compact_hatchback_batched",
+    "version": "1.0.0"
+  },
+  "evidence": {
+    "blenderNormalizationPerformed": false,
+    "gpuImportTestPerformed": false,
+    "humanVisualReviewPerformed": false,
+    "modelBytesCopiedAndHashed": true,
+    "policyValidationCompleted": true,
+    "staticInspectionCompleted": true
+  },
+  "manifestSha256": "6802473cffe13a00800ef40c1de5f583730565a60956f12ede791f0f0fb4cd48",
+  "packageId": "pkg_ac4359c228eb0653766eb73d",
+  "schema": "game_dev.package_receipt.v1",
+  "source": {
+    "bytes": 7530964,
+    "fileName": "silver_compact_hatchback_original_batched.glb",
+    "sha256": "877a3ad45f797bbb090fb82c77d1a0ac499f1612f3aa423770414b47a0764da3"
+  }
+}

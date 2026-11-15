@@ -1,0 +1,23 @@
+{
+  "completedAt": "2026-11-01T08:29:51.261Z",
+  "destination": {
+    "assetId": "modular_airduct_circular_01",
+    "version": "1.0.0"
+  },
+  "evidence": {
+    "blenderNormalizationPerformed": false,
+    "gpuImportTestPerformed": false,
+    "humanVisualReviewPerformed": false,
+    "modelBytesCopiedAndHashed": true,
+    "policyValidationCompleted": true,
+    "staticInspectionCompleted": true
+  },
+  "manifestSha256": "9a229f2992f400ec8bb931ce043d4bcb340c3ee5892e40cd6fc8e7c024c83fb5",
+  "packageId": "pkg_025bc2e98910c6b6eeabf93a",
+  "schema": "game_dev.package_receipt.v1",
+  "source": {
+    "bytes": 2241564,
+    "fileName": "modular_airduct_circular_01.glb",
+    "sha256": "3500b82c3049788d91859d13c40c7a421d7b4a4041dc1c2ecb2ee58da31521fa"
+  }
+}

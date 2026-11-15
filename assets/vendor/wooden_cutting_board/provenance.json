@@ -1,0 +1,13 @@
+{
+  "author": "[redacted]",
+  "notes": "CC0 1.0: https://polyhaven.com/license ; source glTF SHA256 89fa89f6987c5087c0c7a8ac8ccbe451cfa8976ae46377d83a423e658cff9de4; four external resources checked by Poly Haven MD5; proposed Blender 4.3.2 decimation and GLB export with tangents, then browser validation.",
+  "origin": "imported",
+  "provider": "Poly Haven",
+  "schema": "game_dev.asset_provenance.v1",
+  "source": {
+    "bytes": 1946604,
+    "fileName": "wooden_cutting_board.glb",
+    "sha256": "a6eac11ccf4e0e05f66daaae046f746a1b8759785744abcd42803e888bdf58fd"
+  },
+  "sourceUri": "https://polyhaven.com/a/wooden_cutting_board"
+}

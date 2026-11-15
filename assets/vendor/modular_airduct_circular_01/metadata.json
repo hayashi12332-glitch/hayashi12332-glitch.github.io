@@ -1,0 +1,75 @@
+{
+  "assetId": "modular_airduct_circular_01",
+  "displayName": "modular_airduct_circular_01",
+  "inspection": {
+    "animationCount": 0,
+    "boundingBox": {
+      "max": [
+        2.0852111726999283,
+        1.0525595545768738,
+        1.4220706224441528
+      ],
+      "min": [
+        -2.0854946076869965,
+        -0.27158457040786743,
+        -0.04141052067279816
+      ],
+      "sizeMeters": [
+        4.170705780386925,
+        1.3241441249847412,
+        1.463481143116951
+      ]
+    },
+    "boundingBoxEmpty": false,
+    "fileBytes": 2241564,
+    "filePath": "model.glb",
+    "generator": "glTF-Transform v4.5.1",
+    "hasNormals": true,
+    "hasSkin": false,
+    "hasTangents": true,
+    "hasUVs": true,
+    "materialCount": 2,
+    "meshCount": 16,
+    "pbr": {
+      "hasBaseColorTexture": true,
+      "hasEmissiveTexture": false,
+      "hasMetallicRoughnessTexture": true,
+      "hasNormalTexture": true,
+      "hasOcclusionTexture": false
+    },
+    "primitiveCount": 16,
+    "sceneGraphFallback": false,
+    "textureCount": 3,
+    "textureResolutions": [
+      {
+        "bytes": 317118,
+        "height": 1024,
+        "mimeType": "image/jpeg",
+        "name": "modular_airduct_circular_01_nor_gl_1k",
+        "width": 1024
+      },
+      {
+        "bytes": 542554,
+        "height": 1024,
+        "mimeType": "image/jpeg",
+        "name": "modular_airduct_circular_01_diff_1k",
+        "width": 1024
+      },
+      {
+        "bytes": 620251,
+        "height": 1024,
+        "mimeType": "image/jpeg",
+        "name": "modular_airduct_circular_01_arm_1k",
+        "width": 1024
+      }
+    ],
+    "triangleCount": 14280,
+    "undrawnMeshCount": 0,
+    "undrawnPrimitiveCount": 0,
+    "undrawnTriangleCount": 0,
+    "vertexCount": 13707,
+    "warnings": []
+  },
+  "license": "CC0-1.0",
+  "schema": "game_dev.asset_metadata.v1"
+}

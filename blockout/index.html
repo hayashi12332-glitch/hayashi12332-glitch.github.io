@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#ecece7">
+  <title>台湾街区を歩く · 小巷散步</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%233d655a'/%3E%3Cpath d='M18 47V26h28v21M14 26l5-13h26l5 13M24 47V33h16v14' fill='none' stroke='%23f7f3e9' stroke-width='4' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./style.css">
+  <script type="importmap">{"imports":{"three":"/vendor/three-r187/three.module.js","three/addons/":"/vendor/three-r187/addons/","@dimforge/rapier3d-compat":"/vendor/rapier/rapier.es.js"}}</script>
+</head>
+<body>
+  <canvas id="world" tabindex="0" aria-label="台湾街区の3Dワールド"></canvas>
+  <header class="top">
+    <a class="brand" href="/" aria-label="元の街区へ戻る"><span class="brand-icon">巷</span><span><b>小巷散步</b><small>台湾の街を歩く</small></span></a>
+    <div class="tools">
+      <button id="time-toggle" class="time-toggle" type="button" aria-pressed="false" aria-label="夕暮れに切り替える">☼ <span>夕暮れ</span></button>
+      <button id="weather-toggle" class="weather-toggle" type="button" aria-pressed="false" aria-label="雨天に切り替える" title="雨天に切り替える"><i aria-hidden="true">☂</i><span>雨にする</span></button>
+      <button id="go-home" class="home" type="button" aria-label="出発地点へ戻る" title="出発地点へ戻る">⌂</button>
+    </div>
+  </header>
+  <div id="asset-notice" class="asset-notice" role="status" hidden>一部の素材を読み込めませんでした。ほかの街並みは表示しています。</div>
+  <nav class="places" aria-label="見どころ">
+    <button id="places-toggle" type="button" aria-expanded="false" aria-controls="places-list">見どころ <span>⌄</span></button>
+    <div id="places-list" hidden>
+      <button id="visit-arcade" type="button">騎樓</button>
+      <button id="visit-tea" type="button">春日茶行</button>
+      <button id="visit-junction" type="button">交差点</button>
+      <button id="visit-rain-street" type="button">雨の商店街</button>
+      <button id="visit-store" type="button">7-ELEVEN</button>
+      <button id="visit-lottery" type="button">台灣彩券</button>
+      <button id="visit-drugstore" type="button">日藥本舖</button>
+      <button id="visit-carrefour" type="button">家樂福超市</button>
+      <button id="visit-backstreet" type="button">裏路地</button>
+      <button id="visit-clinic" type="button">診所</button>
+      <button id="visit-shrine" type="button">宮廟</button>
+      <button id="visit-park" type="button">公園</button>
+      <button id="visit-resident-home" type="button">親子の家</button>
+      <button id="visit-girl-home" type="button">佳寧の家</button>
+      <button id="visit-breakfast" type="button">朝食店</button>
+      <button id="visit-school" type="button">小学校</button>
+    </div>
+  </nav>
+  <div id="joystick" class="joystick" aria-label="移動スティック"><div id="joystick-thumb"></div><span>移動</span></div>
+  <div class="look-hint" aria-hidden="true">画面をドラッグして見回す</div>
+  <footer>左で移動 · 右で見回す / WASDで移動</footer>
+  <div id="loading" class="loading" role="status">台湾の街を読み込んでいます…</div>
+  <div id="error" class="error" role="alert" hidden><b>街を表示できませんでした</b><span id="error-message"></span><button type="button" onclick="location.reload()">再読み込み</button></div>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>

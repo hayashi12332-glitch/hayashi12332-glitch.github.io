@@ -1,0 +1,23 @@
+{
+  "completedAt": "2026-11-01T09:31:54.563Z",
+  "destination": {
+    "assetId": "wooden_cutting_board",
+    "version": "1.0.0"
+  },
+  "evidence": {
+    "blenderNormalizationPerformed": false,
+    "gpuImportTestPerformed": false,
+    "humanVisualReviewPerformed": false,
+    "modelBytesCopiedAndHashed": true,
+    "policyValidationCompleted": true,
+    "staticInspectionCompleted": true
+  },
+  "manifestSha256": "5ef60201f4a90cfb80033106fa9573379a62c8e3d0780e3124a35f8d18d7b894",
+  "packageId": "pkg_c9a1caeed7d36b81b683e8a7",
+  "schema": "game_dev.package_receipt.v1",
+  "source": {
+    "bytes": 1946604,
+    "fileName": "wooden_cutting_board.glb",
+    "sha256": "a6eac11ccf4e0e05f66daaae046f746a1b8759785744abcd42803e888bdf58fd"
+  }
+}

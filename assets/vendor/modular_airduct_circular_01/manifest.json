@@ -1,0 +1,44 @@
+{
+  "assetId": "modular_airduct_circular_01",
+  "displayName": "modular_airduct_circular_01",
+  "files": [
+    {
+      "bytes": 2241564,
+      "kind": "model",
+      "path": "model.glb",
+      "sha256": "3500b82c3049788d91859d13c40c7a421d7b4a4041dc1c2ecb2ee58da31521fa"
+    },
+    {
+      "bytes": 1842,
+      "kind": "metadata",
+      "path": "metadata.json",
+      "sha256": "8b111a3facb0b38999d64b0e08ff525aa0dc79832ff6052d97d8d8f8e947182f"
+    },
+    {
+      "bytes": 618,
+      "kind": "provenance",
+      "path": "provenance.json",
+      "sha256": "3b7d676e325d0e92e396667c651851ba00d224f7c5d144e3b9a616ff79fc575b"
+    },
+    {
+      "bytes": 3579,
+      "kind": "validation",
+      "path": "validation.json",
+      "sha256": "006847482ec6e537fc2845b4aaf14673e807e8962b5c1d31a02edd6c2a806bd1"
+    }
+  ],
+  "license": "CC0-1.0",
+  "model": "model.glb",
+  "packageId": "pkg_025bc2e98910c6b6eeabf93a",
+  "provenance": {
+    "origin": "imported",
+    "provider": "Poly Haven"
+  },
+  "schema": "game_dev.asset_package.v1",
+  "validation": {
+    "errorCount": 0,
+    "passed": true,
+    "warningCount": 0
+  },
+  "version": "1.0.0"
+}

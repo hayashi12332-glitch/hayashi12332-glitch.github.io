@@ -1,0 +1,44 @@
+{
+  "assetId": "taiwan_postbox_red_dual",
+  "displayName": "taiwan_postbox_red_dual",
+  "files": [
+    {
+      "bytes": 303452,
+      "kind": "model",
+      "path": "model.glb",
+      "sha256": "b665e4a8de8efb945cc2b9d4dd35588b2bd91b45f54d1faa904b81b7fd71e274"
+    },
+    {
+      "bytes": 1432,
+      "kind": "metadata",
+      "path": "metadata.json",
+      "sha256": "60380febf3070b004bb4eafd92587cd3f9d9ab086ad50715ac60a461ecde5c5e"
+    },
+    {
+      "bytes": 824,
+      "kind": "provenance",
+      "path": "provenance.json",
+      "sha256": "b1e53e8c3da397d4db371d667f85097ddb9d45f17fbbe9ab88867a9ffb3065c9"
+    },
+    {
+      "bytes": 3172,
+      "kind": "validation",
+      "path": "validation.json",
+      "sha256": "4b2a1fd714ffc6f999bcc86b916cef673b06f2defde8360912e876768e43b7c9"
+    }
+  ],
+  "license": "CC0-1.0",
+  "model": "model.glb",
+  "packageId": "pkg_49a0672d0623fbe34181e24e",
+  "provenance": {
+    "origin": "imported",
+    "provider": "Original Taiwan Props"
+  },
+  "schema": "game_dev.asset_package.v1",
+  "validation": {
+    "errorCount": 0,
+    "passed": true,
+    "warningCount": 0
+  },
+  "version": "1.0.0"
+}

@@ -1,0 +1,32 @@
+Free building equipment models
+
+Modular Fire Escape — Juniix / Poly Haven, CC0 1.0
+https://polyhaven.com/a/modular_fire_escape
+
+Exterior Aircon Unit — Monsta3D / Poly Haven, CC0 1.0
+https://polyhaven.com/a/exterior_aircon_unit
+The version used by the street is the lightweight derivative from
+https://github.com/avdrav1/drone-sports/tree/280c3a5c94226dd4e028995723d802a55ea02d52/data/models/aircon
+Source license: https://github.com/avdrav1/drone-sports/blob/280c3a5c94226dd4e028995723d802a55ea02d52/data/LICENSES.md
+
+Modular Airduct Circular 01 — Riley Queen / Poly Haven, CC0 1.0
+https://polyhaven.com/a/modular_airduct_circular_01
+
+Television antenna — original model made for this project in Blender, CC0 1.0.
+
+Wooden Cutting Board — Kuutti Siitonen / Poly Haven, CC0 1.0
+https://polyhaven.com/a/wooden_cutting_board
+Reduced to 1,760 triangles in Blender and exported as a tangent-enabled GLB.
+
+Wheelchair 01 — Garreth Dean / Poly Haven, CC0 1.0
+https://polyhaven.com/a/wheelchair_01
+Reduced from 40,252 to 20,126 triangles in Blender and exported as a
+tangent-enabled GLB for the clinic in the independent r187 street.
+
+CC0 1.0 Universal: https://creativecommons.org/publicdomain/zero/1.0/
+Models were imported into Blender 4.3.2 and exported to GLB with tangents.
+Modules are selected, rearranged, instanced and scaled for the street.
+Original author/source and hashes, validation and package receipts are also
+recorded in the adjacent assets/vendor folders and .game-dev/vendor-lock.json.
+No third-party brand is intended or depicted. Existing original assets remain
+separately dedicated to CC0 as described in ASSETS_CC0.txt.

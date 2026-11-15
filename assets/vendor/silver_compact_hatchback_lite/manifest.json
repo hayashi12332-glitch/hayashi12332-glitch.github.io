@@ -1,0 +1,46 @@
+{
+  "assetId": "silver_compact_hatchback_batched",
+  "category": "vehicle",
+  "description": "Full-geometry, material-batched CC0 compact hatchback for a parked rain-street scene. All130902source triangles retained;314source meshes joined into1mesh/10material primitives. No geometry decimation in this canonical package.",
+  "displayName": "silver_compact_hatchback_batched",
+  "files": [
+    {
+      "bytes": 7530964,
+      "kind": "model",
+      "path": "model.glb",
+      "sha256": "877a3ad45f797bbb090fb82c77d1a0ac499f1612f3aa423770414b47a0764da3"
+    },
+    {
+      "bytes": 3421,
+      "kind": "metadata",
+      "path": "metadata.json",
+      "sha256": "af5bb8273d1da1ec2cfb8691f4a9d7260ba82a6d41ffb9682759985dbdab2f08"
+    },
+    {
+      "bytes": 2795,
+      "kind": "provenance",
+      "path": "provenance.json",
+      "sha256": "9f6ac799b33c198a3be0da0757f393c26cfe3763c0da251af5258da964193850"
+    },
+    {
+      "bytes": 4115,
+      "kind": "validation",
+      "path": "validation.json",
+      "sha256": "a07330a4f059ee77626a35bfe7da64b9f6df6e2f07771f75b8d191637ff99c52"
+    }
+  ],
+  "license": "CC0-1.0",
+  "model": "model.glb",
+  "packageId": "pkg_ac4359c228eb0653766eb73d",
+  "provenance": {
+    "origin": "imported",
+    "provider": "Innerscene"
+  },
+  "schema": "game_dev.asset_package.v1",
+  "validation": {
+    "errorCount": 0,
+    "passed": true,
+    "warningCount": 0
+  },
+  "version": "1.0.0"
+}

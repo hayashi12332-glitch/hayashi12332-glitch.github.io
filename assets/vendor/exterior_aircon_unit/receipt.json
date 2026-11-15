@@ -1,0 +1,23 @@
+{
+  "completedAt": "2026-11-01T08:29:49.820Z",
+  "destination": {
+    "assetId": "exterior_aircon_unit",
+    "version": "1.0.0"
+  },
+  "evidence": {
+    "blenderNormalizationPerformed": false,
+    "gpuImportTestPerformed": false,
+    "humanVisualReviewPerformed": false,
+    "modelBytesCopiedAndHashed": true,
+    "policyValidationCompleted": true,
+    "staticInspectionCompleted": true
+  },
+  "manifestSha256": "6b2fe5cda0da5d00338aa76c8041fe6de1b9ee24cc3d2a7b66727b987c9e3005",
+  "packageId": "pkg_5abe4fd4f1910d215a75b2bb",
+  "schema": "game_dev.package_receipt.v1",
+  "source": {
+    "bytes": 7546792,
+    "fileName": "exterior_aircon_unit.glb",
+    "sha256": "d28598b72547014e0063483a8156b1fec1698214f3307ac22655293017edd7ef"
+  }
+}

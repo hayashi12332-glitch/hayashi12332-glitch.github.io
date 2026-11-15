@@ -1,0 +1,44 @@
+{
+  "assetId": "exterior_aircon_unit_lite",
+  "displayName": "exterior_aircon_unit_lite",
+  "files": [
+    {
+      "bytes": 325832,
+      "kind": "model",
+      "path": "model.glb",
+      "sha256": "9417710ec7fd744057f2141f55b7c462dc32bf121dd8da03eeec16f29c7e2a55"
+    },
+    {
+      "bytes": 2181,
+      "kind": "metadata",
+      "path": "metadata.json",
+      "sha256": "9b8260767762db064041cda69dc7ce46e479b59e6b88c1e7a227dd53f5d08640"
+    },
+    {
+      "bytes": 868,
+      "kind": "provenance",
+      "path": "provenance.json",
+      "sha256": "26a65e536fd6d6b7f7bc2dd33ae5cf462e57e2298a28c5ade5c912f0c77ee050"
+    },
+    {
+      "bytes": 3828,
+      "kind": "validation",
+      "path": "validation.json",
+      "sha256": "f313cdc965a2618226cd1bc86c6a301bd8b9bbe8fe670083dedc099e09a0447c"
+    }
+  ],
+  "license": "CC0-1.0",
+  "model": "model.glb",
+  "packageId": "pkg_09c84cd87639313a846bf045",
+  "provenance": {
+    "origin": "imported",
+    "provider": "Poly Haven"
+  },
+  "schema": "game_dev.asset_package.v1",
+  "validation": {
+    "errorCount": 0,
+    "passed": true,
+    "warningCount": 1
+  },
+  "version": "1.0.0"
+}

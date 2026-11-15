@@ -1,0 +1,75 @@
+{
+  "assetId": "wooden_cutting_board",
+  "displayName": "wooden_cutting_board",
+  "inspection": {
+    "animationCount": 0,
+    "boundingBox": {
+      "max": [
+        0.2256641536951065,
+        0.041328903287649155,
+        0.1233518198132515
+      ],
+      "min": [
+        -0.2242341786623001,
+        0.00007586209540022537,
+        -0.12329377233982086
+      ],
+      "sizeMeters": [
+        0.4498983323574066,
+        0.04125304119224893,
+        0.24664559215307236
+      ]
+    },
+    "boundingBoxEmpty": false,
+    "fileBytes": 1946604,
+    "filePath": "model.glb",
+    "generator": "glTF-Transform v4.5.1",
+    "hasNormals": true,
+    "hasSkin": false,
+    "hasTangents": true,
+    "hasUVs": true,
+    "materialCount": 1,
+    "meshCount": 1,
+    "pbr": {
+      "hasBaseColorTexture": true,
+      "hasEmissiveTexture": false,
+      "hasMetallicRoughnessTexture": true,
+      "hasNormalTexture": true,
+      "hasOcclusionTexture": false
+    },
+    "primitiveCount": 1,
+    "sceneGraphFallback": false,
+    "textureCount": 3,
+    "textureResolutions": [
+      {
+        "bytes": 677881,
+        "height": 1024,
+        "mimeType": "image/jpeg",
+        "name": "wooden_cutting_board_nor_gl_1k",
+        "width": 1024
+      },
+      {
+        "bytes": 788732,
+        "height": 1024,
+        "mimeType": "image/jpeg",
+        "name": "wooden_cutting_board_diff_1k",
+        "width": 1024
+      },
+      {
+        "bytes": 401619,
+        "height": 1024,
+        "mimeType": "image/jpeg",
+        "name": "wooden_cutting_board_arm_1k",
+        "width": 1024
+      }
+    ],
+    "triangleCount": 1760,
+    "undrawnMeshCount": 0,
+    "undrawnPrimitiveCount": 0,
+    "undrawnTriangleCount": 0,
+    "vertexCount": 1372,
+    "warnings": []
+  },
+  "license": "CC0-1.0",
+  "schema": "game_dev.asset_metadata.v1"
+}

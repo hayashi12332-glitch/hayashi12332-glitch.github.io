@@ -1,0 +1,31 @@
+{
+  "author": "[redacted]",
+  "copyright": "Authored by Innerscene Corp (innerscene.com). Public domain: dedicated under CC0 1.0 Universal, https://creativecommons.org/publicdomain/zero/1.0/. Free to use, modify and redistribute for any purpose, with no credit required.",
+  "derived_bytes": 7530964,
+  "derived_sha256": "877a3ad45f797bbb090fb82c77d1a0ac499f1612f3aa423770414b47a0764da3",
+  "libraryTermsUri": "https://www.innerscene.com/tools/library/terms",
+  "licenseUri": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "origin": "imported",
+  "original_download_bytes": 5044944,
+  "original_download_sha256": "0c4970bf8673e60bcc7b2db007f1fdd78f4dd393e8f24ff1d05b393ac52a4067",
+  "provider": "Innerscene",
+  "registered_file_bytes": 5044784,
+  "registered_file_sha256": "b91fd6abfa24f1056b408517ce4ddbcd8e3e92406625a85790756c05a9a5849e",
+  "schema": "game_dev.asset_provenance.v1",
+  "source": {
+    "bytes": 7530964,
+    "fileName": "silver_compact_hatchback_original_batched.glb",
+    "sha256": "877a3ad45f797bbb090fb82c77d1a0ac499f1612f3aa423770414b47a0764da3"
+  },
+  "source_hash_note": "ServedGLB contains CDN-added asset.copyright. Removing that string only in memory, canonical JSON reserialization and GLB header length/padding restoration exactly recover registered hash/bytes. Original downloaded bytes were never modified or replaced.",
+  "sourceDownloadUri": "https://files.innerscene.com/library/silver-five-door-compact-hatchback-6bf4a878/d40c0ce1ee7464556dc8/silver-five-door-compact-hatchback.glb",
+  "sourceUri": "https://www.innerscene.com/tools/library/3d-parts/silver-five-door-compact-hatchback-6bf4a878",
+  "transformations": [
+    "Blender4.3.2 import, keep transforms/world scale1m, UVs and full130902tri geometry",
+    "Join all source314mesh objects retaining10material identities; output1mesh/10primitives",
+    "ExportGLB with normals, tangents and UVs; original materialPBR/transmission retained",
+    "No texture resizing, repainting, source copyright editing or source overwriting"
+  ],
+  "visual_review": "Source official preview and8offlineCPU originals individually viewed. 59217tri decimatedcandidate rejected for glass/trim/fender artifacts. This canonical fullgeometryvariant showed no corresponding new silhouette/triangle defects in4CPU views. CPU review is not browser/world/physicalphone/performance evidence.",
+  "warnings": "10basecolor images are64px three-colour nearuniform palette tiles (channel variation +/-1). Inspector low-resolution and unsupported optional transmission/ior warnings are retained separately. Explicit palette policy min64 declared; no texture upscale or allow-invalid/allow-unknown flags. Rootruntime may clonePBR and replace transmissive glazing with opaque tint for mobilecost; canonical sourcePBR preserved."
+}

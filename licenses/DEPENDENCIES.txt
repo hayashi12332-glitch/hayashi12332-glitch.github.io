@@ -1,0 +1,16 @@
+Three.js 0.180.0 — MIT — https://github.com/mrdoob/three.js
+Three.js 0.187.0 — MIT — https://github.com/mrdoob/three.js/releases/tag/r187
+The blockout street uses the separately vendored r187 runtime and its matching
+GLTFLoader, Sky, BufferGeometryUtils and SkeletonUtils addons. The original
+street continues to use r180. See Three-r187-MIT.txt for its license.
+Rapier JS 0.19.0 (@dimforge/rapier3d-compat) — Apache-2.0 — https://github.com/dimforge/rapier.js
+Rapier is copyright Dimforge and contributors. Its npm distribution bundles its WebAssembly implementation into the compatibility JavaScript module.
+
+All street geometry and original GLB props in this project were generated for this task. No paid asset pack is used. See ASSETS_CC0.txt, CODE_MIT.txt and Noto_CJK_Notice.txt.
+
+Included Three.js r180 addon: examples/jsm/objects/Sky.js (MIT). Its daylight-scattering shader is used for the visible sky and outdoor image-based lighting.
+
+Taiwan Street TC — a renamed subset of Noto Sans CJK TC Bold 2.004 — SIL OFL 1.1.
+Source: https://github.com/notofonts/noto-cjk
+Its Taiwan glyphs are used for original Canvas street signs. See
+NotoSansCJK-OFL.txt and ../assets/fonts/README.md; font software is not CC0/MIT.

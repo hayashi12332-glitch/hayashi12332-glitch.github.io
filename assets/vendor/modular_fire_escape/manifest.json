@@ -1,0 +1,44 @@
+{
+  "assetId": "modular_fire_escape",
+  "displayName": "modular_fire_escape",
+  "files": [
+    {
+      "bytes": 5096884,
+      "kind": "model",
+      "path": "model.glb",
+      "sha256": "081b9265d3b4e4404979341cd865a83593a4fcd6d07b9819097f1d9b8af00546"
+    },
+    {
+      "bytes": 2322,
+      "kind": "metadata",
+      "path": "metadata.json",
+      "sha256": "30ec1eb96a05073f39c7ccb7941bc339557622e560aa9d2d2a0ce8081aaba074"
+    },
+    {
+      "bytes": 602,
+      "kind": "provenance",
+      "path": "provenance.json",
+      "sha256": "80be58d505ae53e3c59757ad8a6c8a74897f3552b74abea347a38b9b37decedc"
+    },
+    {
+      "bytes": 3579,
+      "kind": "validation",
+      "path": "validation.json",
+      "sha256": "e8475a2c30d9ae84139f973ecb978255424bcdde1bec7c41b84fec79f3ea0fee"
+    }
+  ],
+  "license": "CC0-1.0",
+  "model": "model.glb",
+  "packageId": "pkg_21d4579e3f90e87cb29bee44",
+  "provenance": {
+    "origin": "imported",
+    "provider": "Poly Haven"
+  },
+  "schema": "game_dev.asset_package.v1",
+  "validation": {
+    "errorCount": 0,
+    "passed": true,
+    "warningCount": 0
+  },
+  "version": "1.0.0"
+}

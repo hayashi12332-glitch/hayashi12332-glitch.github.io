@@ -1,0 +1,12 @@
+{
+  "author": "[redacted]",
+  "notes": "CC0 derivative of original 01_Postbox_Green.glb SHA256 76e7232c2f6468f9c759a777057d54f870594b9673dfb11040982c1398e2cec2; imported in Blender 4.3.2 and edited to create two recessed openings, dividing wall, independent rain lips and traditional Chinese labels; geometry exported GLB with Y-up, ground-centred origin and unchanged bounds. Rasterized labels use Noto Sans CJK TC under OFL 1.1; original label cells retained. Reproduction scripts: build_postboxes.py, make_atlases.py, scripts/refine_prop_labels.py.",
+  "origin": "imported",
+  "provider": "Original Taiwan Props",
+  "schema": "game_dev.asset_provenance.v1",
+  "source": {
+    "bytes": 299984,
+    "fileName": "01_Postbox_Green_dual.glb",
+    "sha256": "e4f7d280f5ea5e5fe2b7fbf5d62aaa9dcd07a805e187aafc64a244ad9d9cc22d"
+  }
+}

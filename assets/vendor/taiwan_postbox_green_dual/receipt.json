@@ -1,0 +1,23 @@
+{
+  "completedAt": "2026-11-01T09:02:06.248Z",
+  "destination": {
+    "assetId": "taiwan_postbox_green_dual",
+    "version": "1.0.0"
+  },
+  "evidence": {
+    "blenderNormalizationPerformed": false,
+    "gpuImportTestPerformed": false,
+    "humanVisualReviewPerformed": false,
+    "modelBytesCopiedAndHashed": true,
+    "policyValidationCompleted": true,
+    "staticInspectionCompleted": true
+  },
+  "manifestSha256": "4ae62d120e94c1d88920126c94fe51227e2ac09aa9de6013401ad2a34fa2089f",
+  "packageId": "pkg_b17ca0066287b8849fd0c49a",
+  "schema": "game_dev.package_receipt.v1",
+  "source": {
+    "bytes": 299984,
+    "fileName": "01_Postbox_Green_dual.glb",
+    "sha256": "e4f7d280f5ea5e5fe2b7fbf5d62aaa9dcd07a805e187aafc64a244ad9d9cc22d"
+  }
+}

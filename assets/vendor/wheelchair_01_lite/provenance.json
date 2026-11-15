@@ -1,0 +1,13 @@
+{
+  "author": "[redacted]",
+  "notes": "CC0 1.0: https://polyhaven.com/license ; source glTF SHA256 6a59d638ceb35e46fe543f4b8b5e94b00fe2c6f15045c1d3cd7d9f46de34f645 ; external resources checked against Poly Haven MD5 and saved SHA256 values; Blender decimation and GLB export with tangents.",
+  "origin": "imported",
+  "provider": "Poly Haven",
+  "schema": "game_dev.asset_provenance.v1",
+  "source": {
+    "bytes": 1567380,
+    "fileName": "wheelchair_01_lite.glb",
+    "sha256": "1bf91597d0b5b873b28522d5ac602b25dee8bbb7fde716aac311e314bf194479"
+  },
+  "sourceUri": "https://polyhaven.com/a/wheelchair_01"
+}

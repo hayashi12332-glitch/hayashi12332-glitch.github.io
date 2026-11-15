@@ -1,0 +1,23 @@
+{
+  "completedAt": "2026-11-01T11:34:22.105Z",
+  "destination": {
+    "assetId": "wheelchair_01_lite",
+    "version": "1.0.0"
+  },
+  "evidence": {
+    "blenderNormalizationPerformed": false,
+    "gpuImportTestPerformed": false,
+    "humanVisualReviewPerformed": false,
+    "modelBytesCopiedAndHashed": true,
+    "policyValidationCompleted": true,
+    "staticInspectionCompleted": true
+  },
+  "manifestSha256": "73956cfebc75b0187761b9253794ff6ed433338f3695efe2371323badaa16fb7",
+  "packageId": "pkg_853742a0b119fd61c44d6385",
+  "schema": "game_dev.package_receipt.v1",
+  "source": {
+    "bytes": 1567380,
+    "fileName": "wheelchair_01_lite.glb",
+    "sha256": "1bf91597d0b5b873b28522d5ac602b25dee8bbb7fde716aac311e314bf194479"
+  }
+}

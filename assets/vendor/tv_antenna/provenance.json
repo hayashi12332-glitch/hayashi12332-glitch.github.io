@@ -1,0 +1,9 @@
+{
+  "origin": "imported",
+  "schema": "game_dev.asset_provenance.v1",
+  "source": {
+    "bytes": 30828,
+    "fileName": "television_antenna.glb",
+    "sha256": "fc15bf1f1a2d0b82888c69631955ce0ea28955d8240cd3f4c5b6c9d46dff47c7"
+  }
+}

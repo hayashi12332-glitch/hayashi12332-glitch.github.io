@@ -1,0 +1,44 @@
+{
+  "assetId": "wooden_cutting_board",
+  "displayName": "wooden_cutting_board",
+  "files": [
+    {
+      "bytes": 1946604,
+      "kind": "model",
+      "path": "model.glb",
+      "sha256": "a6eac11ccf4e0e05f66daaae046f746a1b8759785744abcd42803e888bdf58fd"
+    },
+    {
+      "bytes": 1811,
+      "kind": "metadata",
+      "path": "metadata.json",
+      "sha256": "2c5bf12d72417390f485bf2729b55c560e487691ec469844eec8124b1c8553f3"
+    },
+    {
+      "bytes": 634,
+      "kind": "provenance",
+      "path": "provenance.json",
+      "sha256": "c14eaff7bd40924e8bd5785e62241fd4d925adb7dee039c5d1caffeae19bee40"
+    },
+    {
+      "bytes": 3577,
+      "kind": "validation",
+      "path": "validation.json",
+      "sha256": "d90ddac1124d050715e432c54e42ed51bd4de9d40dec3c7075b086589ad2456c"
+    }
+  ],
+  "license": "CC0-1.0",
+  "model": "model.glb",
+  "packageId": "pkg_c9a1caeed7d36b81b683e8a7",
+  "provenance": {
+    "origin": "imported",
+    "provider": "Poly Haven"
+  },
+  "schema": "game_dev.asset_package.v1",
+  "validation": {
+    "errorCount": 0,
+    "passed": true,
+    "warningCount": 0
+  },
+  "version": "1.0.0"
+}

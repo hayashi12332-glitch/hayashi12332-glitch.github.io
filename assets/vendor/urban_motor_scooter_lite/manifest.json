@@ -1,0 +1,45 @@
+{
+  "assetId": "urban_motor_scooter_lite",
+  "description": "UV-baked, Blender-optimized CC0 urban scooter for a browser-based Taiwanese neighborhood.",
+  "displayName": "urban_motor_scooter_lite",
+  "files": [
+    {
+      "bytes": 5321952,
+      "kind": "model",
+      "path": "model.glb",
+      "sha256": "f66c2927df78fcad8102b82d6911fb28818a13d3fad505cb20adaf2f57386cf0"
+    },
+    {
+      "bytes": 3781,
+      "kind": "metadata",
+      "path": "metadata.json",
+      "sha256": "913ee7adeb82afdbe9abee2133c5e258bfc7bcf0c10282aea3d5a9c3be36d1d7"
+    },
+    {
+      "bytes": 1384,
+      "kind": "provenance",
+      "path": "provenance.json",
+      "sha256": "46782ea69cb0ad07e8b09233bd28136a5afda7de1149ddeb8d083968af506ebb"
+    },
+    {
+      "bytes": 3649,
+      "kind": "validation",
+      "path": "validation.json",
+      "sha256": "d0eb2db40a365e331966ba47bd83dafccfa6761f998f324e1d6c3209fd5a4752"
+    }
+  ],
+  "license": "CC0-1.0",
+  "model": "model.glb",
+  "packageId": "pkg_3c11cda209c1d37c712bd379",
+  "provenance": {
+    "origin": "imported",
+    "provider": "Innerscene"
+  },
+  "schema": "game_dev.asset_package.v1",
+  "validation": {
+    "errorCount": 0,
+    "passed": true,
+    "warningCount": 0
+  },
+  "version": "1.0.0"
+}

@@ -1,0 +1,84 @@
+{
+  "assetId": "exterior_aircon_unit_lite",
+  "displayName": "exterior_aircon_unit_lite",
+  "inspection": {
+    "animationCount": 0,
+    "boundingBox": {
+      "max": [
+        0.3999953866004944,
+        0.9265032410621643,
+        0.37478476762771606
+      ],
+      "min": [
+        -0.3999953866004944,
+        0,
+        0
+      ],
+      "sizeMeters": [
+        0.7999907732009888,
+        0.9265032410621643,
+        0.37478476762771606
+      ]
+    },
+    "boundingBoxEmpty": false,
+    "fileBytes": 325832,
+    "filePath": "model.glb",
+    "generator": "glTF-Transform v4.5.1",
+    "hasNormals": true,
+    "hasSkin": false,
+    "hasTangents": true,
+    "hasUVs": true,
+    "materialCount": 2,
+    "meshCount": 1,
+    "pbr": {
+      "hasBaseColorTexture": true,
+      "hasEmissiveTexture": false,
+      "hasMetallicRoughnessTexture": false,
+      "hasNormalTexture": true,
+      "hasOcclusionTexture": false
+    },
+    "primitiveCount": 2,
+    "sceneGraphFallback": false,
+    "textureCount": 4,
+    "textureResolutions": [
+      {
+        "bytes": 44621,
+        "height": 512,
+        "mimeType": "image/jpeg",
+        "name": "exterior_aircon_unit_01_nor_gl",
+        "width": 512
+      },
+      {
+        "bytes": 56180,
+        "height": 512,
+        "mimeType": "image/jpeg",
+        "name": "exterior_aircon_unit_01_diff",
+        "width": 512
+      },
+      {
+        "bytes": 83012,
+        "height": 512,
+        "mimeType": "image/jpeg",
+        "name": "exterior_aircon_unit_02_nor_gl",
+        "width": 512
+      },
+      {
+        "bytes": 45878,
+        "height": 512,
+        "mimeType": "image/jpeg",
+        "name": "exterior_aircon_unit_02_diff",
+        "width": 512
+      }
+    ],
+    "triangleCount": 1499,
+    "undrawnMeshCount": 0,
+    "undrawnPrimitiveCount": 0,
+    "undrawnTriangleCount": 0,
+    "vertexCount": 1750,
+    "warnings": [
+      "texture is below 1024px on an axis and will blur at close range: exterior_aircon_unit_01_nor_gl (512x512), exterior_aircon_unit_01_diff (512x512), exterior_aircon_unit_02_nor_gl (512x512), exterior_aircon_unit_02_diff (512x512)"
+    ]
+  },
+  "license": "CC0-1.0",
+  "schema": "game_dev.asset_metadata.v1"
+}

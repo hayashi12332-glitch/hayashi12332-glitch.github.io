@@ -1,0 +1,43 @@
+{
+  "assetId": "television_antenna",
+  "displayName": "television_antenna",
+  "files": [
+    {
+      "bytes": 30828,
+      "kind": "model",
+      "path": "model.glb",
+      "sha256": "fc15bf1f1a2d0b82888c69631955ce0ea28955d8240cd3f4c5b6c9d46dff47c7"
+    },
+    {
+      "bytes": 1374,
+      "kind": "metadata",
+      "path": "metadata.json",
+      "sha256": "a8b87cd6af43373cd4f4b2d7e468ff932e218803398f6224b6314174d76d714b"
+    },
+    {
+      "bytes": 233,
+      "kind": "provenance",
+      "path": "provenance.json",
+      "sha256": "033fe1d8040a7ff266486c14106a2bdac38f32b5e5f4f63a3607c08cd2c2bfe5"
+    },
+    {
+      "bytes": 2615,
+      "kind": "validation",
+      "path": "validation.json",
+      "sha256": "25c4b3b4f9c31f499c8f16c93aa82f157b4b16b5867cfd49926db0593befc920"
+    }
+  ],
+  "license": "CC0-1.0",
+  "model": "model.glb",
+  "packageId": "pkg_5efd59046695392407110cf9",
+  "provenance": {
+    "origin": "imported"
+  },
+  "schema": "game_dev.asset_package.v1",
+  "validation": {
+    "errorCount": 0,
+    "passed": true,
+    "warningCount": 0
+  },
+  "version": "1.0.0"
+}

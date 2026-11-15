@@ -1,0 +1,23 @@
+{
+  "completedAt": "2026-11-01T08:29:49.258Z",
+  "destination": {
+    "assetId": "modular_fire_escape",
+    "version": "1.0.0"
+  },
+  "evidence": {
+    "blenderNormalizationPerformed": false,
+    "gpuImportTestPerformed": false,
+    "humanVisualReviewPerformed": false,
+    "modelBytesCopiedAndHashed": true,
+    "policyValidationCompleted": true,
+    "staticInspectionCompleted": true
+  },
+  "manifestSha256": "08397139b2111e3da8fddb7757caff943def05743cb24efc000b63929349c594",
+  "packageId": "pkg_21d4579e3f90e87cb29bee44",
+  "schema": "game_dev.package_receipt.v1",
+  "source": {
+    "bytes": 5096884,
+    "fileName": "modular_fire_escape.glb",
+    "sha256": "081b9265d3b4e4404979341cd865a83593a4fcd6d07b9819097f1d9b8af00546"
+  }
+}

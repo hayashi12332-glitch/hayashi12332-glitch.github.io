@@ -1,0 +1,96 @@
+{
+  "assetId": "modular_fire_escape",
+  "displayName": "modular_fire_escape",
+  "inspection": {
+    "animationCount": 0,
+    "boundingBox": {
+      "max": [
+        4.260319948196411,
+        6.107988625764847,
+        0.6359028518199921
+      ],
+      "min": [
+        -2.4008802250027657,
+        -3.6485621333122253,
+        -0.7848619520664215
+      ],
+      "sizeMeters": [
+        6.661200173199177,
+        9.756550759077072,
+        1.4207648038864136
+      ]
+    },
+    "boundingBoxEmpty": false,
+    "fileBytes": 5096884,
+    "filePath": "model.glb",
+    "generator": "glTF-Transform v4.5.1",
+    "hasNormals": true,
+    "hasSkin": false,
+    "hasTangents": true,
+    "hasUVs": true,
+    "materialCount": 3,
+    "meshCount": 7,
+    "pbr": {
+      "hasBaseColorTexture": true,
+      "hasEmissiveTexture": false,
+      "hasMetallicRoughnessTexture": true,
+      "hasNormalTexture": true,
+      "hasOcclusionTexture": false
+    },
+    "primitiveCount": 7,
+    "sceneGraphFallback": false,
+    "textureCount": 6,
+    "textureResolutions": [
+      {
+        "bytes": 685951,
+        "height": 1024,
+        "mimeType": "image/jpeg",
+        "name": "modular_fire_escape_01_nor_gl_1k",
+        "width": 1024
+      },
+      {
+        "bytes": 591379,
+        "height": 1024,
+        "mimeType": "image/jpeg",
+        "name": "modular_fire_escape_01_diff_1k",
+        "width": 1024
+      },
+      {
+        "bytes": 711858,
+        "height": 1024,
+        "mimeType": "image/jpeg",
+        "name": "modular_fire_escape_01_arm_1k",
+        "width": 1024
+      },
+      {
+        "bytes": 939689,
+        "height": 1024,
+        "mimeType": "image/jpeg",
+        "name": "modular_fire_escape_02_nor_gl_1k",
+        "width": 1024
+      },
+      {
+        "bytes": 615280,
+        "height": 1024,
+        "mimeType": "image/jpeg",
+        "name": "modular_fire_escape_02_diff_1k",
+        "width": 1024
+      },
+      {
+        "bytes": 732941,
+        "height": 1024,
+        "mimeType": "image/jpeg",
+        "name": "modular_fire_escape_02_arm_1k",
+        "width": 1024
+      }
+    ],
+    "triangleCount": 11322,
+    "undrawnMeshCount": 0,
+    "undrawnPrimitiveCount": 0,
+    "undrawnTriangleCount": 0,
+    "vertexCount": 15469,
+    "warnings": []
+  },
+  "license": "CC0-1.0",
+  "schema": "game_dev.asset_metadata.v1"
+}

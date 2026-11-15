@@ -1,0 +1,23 @@
+{
+  "completedAt": "2026-11-01T14:36:54.911Z",
+  "destination": {
+    "assetId": "urban_motor_scooter_lite",
+    "version": "1.0.0"
+  },
+  "evidence": {
+    "blenderNormalizationPerformed": false,
+    "gpuImportTestPerformed": false,
+    "humanVisualReviewPerformed": false,
+    "modelBytesCopiedAndHashed": true,
+    "policyValidationCompleted": true,
+    "staticInspectionCompleted": true
+  },
+  "manifestSha256": "bdc9e904ea00bfa4d10ed357843531d9ce05ed06221077cd433fe0ee9d4dd448",
+  "packageId": "pkg_3c11cda209c1d37c712bd379",
+  "schema": "game_dev.package_receipt.v1",
+  "source": {
+    "bytes": 5321952,
+    "fileName": "urban_motor_scooter_lite_uv_baked.glb",
+    "sha256": "f66c2927df78fcad8102b82d6911fb28818a13d3fad505cb20adaf2f57386cf0"
+  }
+}

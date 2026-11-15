@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#e7e3d5">
+  <meta name="description" content="小さな台湾の街を歩いて、好きな景色をつくる。ブラウザで楽しむ台湾街区。">
+  <title>小巷散步 · 台湾街区</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%233d655a'/%3E%3Cpath d='M18 47V26h28v21M14 26l5-13h26l5 13M24 47V33h16v14' fill='none' stroke='%23f7f3e9' stroke-width='4' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./style.css">
+  <script type="importmap">{"imports":{"three":"/vendor/three/three.module.js","three/addons/":"/vendor/three/addons/","@dimforge/rapier3d-compat":"/vendor/rapier/rapier.es.js"}}</script>
+</head>
+<body>
+  <svg class="svg-symbols" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="i-orbit" viewBox="0 0 24 24"><ellipse cx="12" cy="12" rx="10" ry="4.5" transform="rotate(-30 12 12)"/><circle cx="12" cy="12" r="2.5"/><path d="m18 3 3 2-1 3"/></symbol>
+    <symbol id="i-walk" viewBox="0 0 24 24"><circle cx="14" cy="4" r="2"/><path d="m7 12 4-4 4 1 2 5 4 1M13 9l-2 7-4 6m4-6 5 2 1 4M7 8l-2 5"/></symbol>
+    <symbol id="i-edit" viewBox="0 0 24 24"><path d="m4 8 8-5 8 5v9l-8 5-8-5zm0 0 8 5 8-5m-8 5v9M4 3v4M2 5h4"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><path d="M3 18h18M5 14a7 7 0 0 1 14 0M12 2v3M3 6l2 2m16-2-2 2M1 13h3m16 0h3M7 22h10"/></symbol>
+    <symbol id="i-home" viewBox="0 0 24 24"><path d="m3 11 9-8 9 8M5 10v11h14V10M9 21v-7h6v7"/></symbol>
+    <symbol id="i-help" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.5 8.5a2.5 2.5 0 0 1 5 0c0 2-2.5 2-2.5 4M12 16h.01"/></symbol>
+    <symbol id="i-post" viewBox="0 0 24 24"><path d="M6 21V7a6 6 0 0 1 12 0v14ZM9 9h6M9 14h6M4 21h16"/></symbol>
+    <symbol id="i-stall" viewBox="0 0 24 24"><path d="M3 10h18l-3-7H6Zm2 0v11m14-11v11M5 16h14M9 3l-1 7m7-7 1 7M3 21h18"/></symbol>
+    <symbol id="i-shelf" viewBox="0 0 24 24"><path d="M3 3v18M21 3v18M3 11h18M3 20h18M6 11V5h4v6m4 0V7h4v4M7 20v-5h5v5m4 0v-6h3v6"/></symbol>
+    <symbol id="i-register" viewBox="0 0 24 24"><path d="M3 21v-7h18v7ZM8 14v-3M4 3h12v8H4ZM7 17h3m5 0h3M18 8h3v6"/></symbol>
+    <symbol id="i-pot" viewBox="0 0 24 24"><path d="M5 10h14v7a4 4 0 0 1-4 4H9a4 4 0 0 1-4-4ZM2 12h3m14 0h3M9 7c-3-3 3-3 0-6m6 6c-3-3 3-3 0-6"/></symbol>
+    <symbol id="i-left" viewBox="0 0 24 24"><path d="M4 4v6h6M4 10a8 8 0 1 1 1 8"/></symbol>
+    <symbol id="i-right" viewBox="0 0 24 24"><path d="M20 4v6h-6m6 0a8 8 0 1 0-1 8"/></symbol>
+    <symbol id="i-trash" viewBox="0 0 24 24"><path d="M3 6h18M9 6V3h6v3M6 6l1 15h10l1-15M10 10v7m4-7v7"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M4 15v6h16v-6"/></symbol>
+    <symbol id="i-upload" viewBox="0 0 24 24"><path d="M12 16V4m-5 5 5-5 5 5M4 15v6h16v-6"/></symbol>
+  </svg>
+
+  <canvas id="world" aria-label="台湾街区の3Dワールド" tabindex="0"></canvas>
+
+  <header class="topbar">
+    <div class="brand" aria-label="小巷散步 台湾街区">
+      <span class="brand-mark" aria-hidden="true">巷</span>
+      <div><h1>小巷散步</h1><p>台湾街区 <span class="brand-dot">·</span> <span id="mode-label">小巷を歩く</span></p></div>
+    </div>
+    <nav class="mode-switch" aria-label="ワールドの操作モード">
+      <button id="orbit-mode" class="mode-button" type="button" aria-pressed="false"><svg><use href="#i-orbit"/></svg><span>見渡す</span></button>
+      <button id="walk-mode" class="mode-button active" type="button" aria-pressed="true"><svg><use href="#i-walk"/></svg><span>歩く</span></button>
+      <button id="edit-mode" class="mode-button" type="button" aria-pressed="false"><svg><use href="#i-edit"/></svg><span>配置</span></button>
+    </nav>
+    <div class="view-tools">
+      <button id="time-toggle" class="surface-button time-button" type="button" title="時間帯を切り替える"><svg><use href="#i-sun"/></svg><span>夕暮れ</span></button>
+      <button id="home-camera" class="surface-button icon-button" type="button" aria-label="最初の視点に戻る" title="最初の視点に戻る"><svg><use href="#i-home"/></svg></button>
+      <button id="help-toggle" class="surface-button icon-button" type="button" aria-label="操作の案内" aria-expanded="false" aria-controls="help-panel" title="操作の案内"><svg><use href="#i-help"/></svg></button>
+    </div>
+  </header>
+
+  <nav id="street-stops" class="street-stops" aria-label="街の見どころへ移動" hidden>
+    <div class="street-stops-heading">
+    <button id="street-stops-toggle" class="disclosure-button" type="button" aria-expanded="false" aria-controls="street-stop-list">街の見どころ <span aria-hidden="true">⌄</span></button>
+    <a class="whitebox-entry" href="/blockout/index.html" aria-label="新しい台湾街区を歩く">新しい街を歩く <span aria-hidden="true">↗</span></a>
+    </div>
+    <div id="street-stop-list" class="street-stop-list" hidden>
+    <button id="visit-arcade" type="button" title="騎樓：建物の下を通る屋根付き歩道へ">騎樓へ <span aria-hidden="true">↗</span></button>
+    <button id="visit-junction" type="button">交差点へ <span aria-hidden="true">↗</span></button>
+    <button id="visit-shops" type="button">商店街へ <span aria-hidden="true">↗</span></button>
+    <button id="visit-backstreet" type="button">裏路地へ <span aria-hidden="true">↗</span></button>
+    </div>
+  </nav>
+
+  <aside id="help-panel" class="floating-panel help-panel" hidden aria-label="操作の案内">
+    <span class="eyebrow">ゆっくり、街を楽しもう</span>
+    <h2>小巷の歩き方</h2>
+    <dl>
+      <div><dt>見渡す</dt><dd>ドラッグで回転。ピンチやホイールで拡大・縮小。</dd></div>
+      <div><dt>歩く</dt><dd>左下のスティックで移動、画面右側をドラッグして見回せます。キーボードでは WASD・矢印キー。</dd></div>
+      <div><dt>見どころ</dt><dd>「街の見どころ」から騎樓や裏路地へ移動できます。</dd></div>
+      <div><dt>新しい街を歩く</dt><dd>夕暮れにも切り替えられる新しい街へ移動します。</dd></div>
+      <div><dt>配置</dt><dd>パーツを選んで追加。置いたパーツは選択して移動・回転できます。</dd></div>
+    </dl>
+    <p class="muted help-note">配置はこのブラウザに自動保存されます。「配置データ」から保存したファイルを、別の端末で読み込めます。</p>
+  </aside>
+
+  <aside id="edit-panel" class="floating-panel edit-panel" hidden aria-label="パーツの配置">
+    <div class="panel-heading"><div><span class="eyebrow">小さな街づくり</span><h2>パーツを置く</h2></div><button id="edit-panel-toggle" class="panel-toggle" type="button" aria-expanded="true" aria-controls="edit-panel-content" aria-label="配置パネルをたたむ">たたむ <span aria-hidden="true">⌄</span></button></div>
+    <div id="edit-panel-content">
+    <div id="asset-palette" class="asset-palette" aria-label="追加するパーツ">
+      <button type="button" data-kind="postboxRed"><svg class="red-icon"><use href="#i-post"/></svg><span>赤いポスト</span></button>
+      <button type="button" data-kind="postboxGreen"><svg class="green-icon"><use href="#i-post"/></svg><span>緑のポスト</span></button>
+      <button type="button" data-kind="stall"><svg><use href="#i-stall"/></svg><span>屋台</span></button>
+      <button type="button" data-kind="shelf"><svg><use href="#i-shelf"/></svg><span>商品棚</span></button>
+      <button type="button" data-kind="checkout"><svg><use href="#i-register"/></svg><span>レジ</span></button>
+      <button type="button" data-kind="teaEgg"><svg><use href="#i-pot"/></svg><span>茶葉蛋の鍋</span></button>
+    </div>
+    <div class="selection-tools">
+      <p id="selected-name">パーツを選ぶと編集できます</p>
+      <div class="selection-actions">
+        <button id="rotate-left" type="button" disabled><svg><use href="#i-left"/></svg><span>左回転</span></button>
+        <button id="rotate-right" type="button" disabled><svg><use href="#i-right"/></svg><span>右回転</span></button>
+        <button id="delete-object" class="delete-button" type="button" disabled><svg><use href="#i-trash"/></svg><span>削除</span></button>
+      </div>
+    </div>
+    <details class="layout-details">
+      <summary>配置データ<span>保存・読み込み</span></summary>
+      <p class="muted">この端末には自動保存されます。</p>
+      <div class="data-actions">
+        <button id="export-layout" type="button"><svg><use href="#i-download"/></svg>保存</button>
+        <button id="import-layout" type="button"><svg><use href="#i-upload"/></svg>読み込む</button>
+      </div>
+      <input id="import-file" type="file" accept="application/json,.json" hidden>
+      <button id="reset-layout" class="text-button" type="button">最初の配置に戻す</button>
+    </details>
+    </div>
+  </aside>
+
+  <div id="crosshair" hidden aria-hidden="true"></div>
+  <div id="walk-controls" hidden>
+    <div class="joystick-area"><div id="joystick" role="group" aria-label="移動スティック"><span class="joystick-guides" aria-hidden="true"></span><div id="joystick-thumb"></div></div><span>移動</span></div>
+    <div class="look-hint"><svg aria-hidden="true"><use href="#i-orbit"/></svg><span>右側をドラッグして見回す</span></div>
+  </div>
+
+  <footer class="world-footer"><span class="live-dot" aria-hidden="true"></span><p id="status">ドラッグで見渡す · ピンチで拡大</p><span class="world-caption" aria-hidden="true">TAIWAN, AT YOUR PACE.</span></footer>
+  <div id="toast" role="status" aria-live="polite"></div>
+
+  <div id="loading" class="screen-overlay">
+    <div class="loading-brand" aria-hidden="true">巷</div>
+    <h2>小巷散步</h2><p id="loading-text">小さな台湾の街を準備しています…</p><span class="loading-line" aria-hidden="true"></span>
+  </div>
+  <div id="error-panel" class="screen-overlay error-overlay" hidden role="alert">
+    <span class="eyebrow">街を開けませんでした</span><h2>もう一度、試してみてください</h2>
+    <p id="error-message">お使いのブラウザで3D表示を開始できませんでした。</p><button type="button" onclick="location.reload()">再読み込み</button>
+  </div>
+  <script type="module" src="/src/ui-disclosure.js"></script>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

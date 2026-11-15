@@ -1,0 +1,13 @@
+{
+  "author": "[redacted]",
+  "notes": "CC0; 1k official glTF source SHA256 3a28e24cf2b6fc32c86f4fd378a372f9c3babfb9c2206036c6276d5bb47df2fd; imported and exported in Blender 4.3.2 with tangent attributes; source and included textures were checked against Poly Haven API MD5.",
+  "origin": "imported",
+  "provider": "Poly Haven",
+  "schema": "game_dev.asset_provenance.v1",
+  "source": {
+    "bytes": 5096884,
+    "fileName": "modular_fire_escape.glb",
+    "sha256": "081b9265d3b4e4404979341cd865a83593a4fcd6d07b9819097f1d9b8af00546"
+  },
+  "sourceUri": "https://polyhaven.com/a/modular_fire_escape"
+}

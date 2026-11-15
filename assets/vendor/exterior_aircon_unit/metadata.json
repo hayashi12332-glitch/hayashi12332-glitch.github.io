@@ -1,0 +1,138 @@
+{
+  "assetId": "exterior_aircon_unit",
+  "displayName": "exterior_aircon_unit",
+  "inspection": {
+    "animationCount": 0,
+    "boundingBox": {
+      "max": [
+        0.9072735011577606,
+        0.6078314781188965,
+        0.15819303691387177
+      ],
+      "min": [
+        -0.892697811126709,
+        -0.32006561756134033,
+        -0.21596616506576538
+      ],
+      "sizeMeters": [
+        1.7999713122844696,
+        0.9278970956802368,
+        0.37415920197963715
+      ]
+    },
+    "boundingBoxEmpty": false,
+    "fileBytes": 7546792,
+    "filePath": "model.glb",
+    "generator": "glTF-Transform v4.5.1",
+    "hasNormals": true,
+    "hasSkin": false,
+    "hasTangents": true,
+    "hasUVs": true,
+    "materialCount": 4,
+    "meshCount": 2,
+    "pbr": {
+      "hasBaseColorTexture": true,
+      "hasEmissiveTexture": false,
+      "hasMetallicRoughnessTexture": true,
+      "hasNormalTexture": true,
+      "hasOcclusionTexture": false
+    },
+    "primitiveCount": 4,
+    "sceneGraphFallback": false,
+    "textureCount": 12,
+    "textureResolutions": [
+      {
+        "bytes": 472088,
+        "height": 1024,
+        "mimeType": "image/jpeg",
+        "name": "exterior_aircon_unit_01_nor_gl_1k",
+        "width": 1024
+      },
+      {
+        "bytes": 506664,
+        "height": 1024,
+        "mimeType": "image/jpeg",
+        "name": "exterior_aircon_unit_01_diff_1k",
+        "width": 1024
+      },
+      {
+        "bytes": 651293,
+        "height": 1024,
+        "mimeType": "image/jpeg",
+        "name": "exterior_aircon_unit_01_arm_1k",
+        "width": 1024
+      },
+      {
+        "bytes": 942230,
+        "height": 1024,
+        "mimeType": "image/jpeg",
+        "name": "exterior_aircon_unit_02_nor_gl_1k",
+        "width": 1024
+      },
+      {
+        "bytes": 165571,
+        "height": 1024,
+        "mimeType": "image/png",
+        "name": "exterior_aircon_unit_01_opacity_1k",
+        "width": 1024
+      },
+      {
+        "bytes": 484026,
+        "height": 1024,
+        "mimeType": "image/jpeg",
+        "name": "exterior_aircon_unit_02_arm_1k",
+        "width": 1024
+      },
+      {
+        "bytes": 583620,
+        "height": 1024,
+        "mimeType": "image/jpeg",
+        "name": "exterior_aircon_unit_rusted_01_nor_gl_1k",
+        "width": 1024
+      },
+      {
+        "bytes": 606076,
+        "height": 1024,
+        "mimeType": "image/jpeg",
+        "name": "exterior_aircon_unit_rusted_01_diff_1k",
+        "width": 1024
+      },
+      {
+        "bytes": 673246,
+        "height": 1024,
+        "mimeType": "image/jpeg",
+        "name": "exterior_aircon_unit_rusted_01_arm_1k",
+        "width": 1024
+      },
+      {
+        "bytes": 947477,
+        "height": 1024,
+        "mimeType": "image/jpeg",
+        "name": "exterior_aircon_unit_rusted_02_nor_gl_1k",
+        "width": 1024
+      },
+      {
+        "bytes": 185639,
+        "height": 1024,
+        "mimeType": "image/png",
+        "name": "exterior_aircon_unit_rusted_02_opacity_1k",
+        "width": 1024
+      },
+      {
+        "bytes": 605557,
+        "height": 1024,
+        "mimeType": "image/jpeg",
+        "name": "exterior_aircon_unit_rusted_02_arm_1k",
+        "width": 1024
+      }
+    ],
+    "triangleCount": 18986,
+    "undrawnMeshCount": 0,
+    "undrawnPrimitiveCount": 0,
+    "undrawnTriangleCount": 0,
+    "vertexCount": 13744,
+    "warnings": []
+  },
+  "license": "CC0-1.0",
+  "schema": "game_dev.asset_metadata.v1"
+}

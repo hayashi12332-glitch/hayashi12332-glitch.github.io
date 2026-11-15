@@ -1,0 +1,130 @@
+{
+  "assetId": "silver_compact_hatchback_batched",
+  "category": "vehicle",
+  "description": "Full-geometry, material-batched CC0 compact hatchback for a parked rain-street scene. All130902source triangles retained;314source meshes joined into1mesh/10material primitives. No geometry decimation in this canonical package.",
+  "displayName": "silver_compact_hatchback_batched",
+  "inspection": {
+    "animationCount": 0,
+    "boundingBox": {
+      "max": [
+        2.1461799144744873,
+        1.5851422047708184,
+        1.058459997177124
+      ],
+      "min": [
+        -2.118680000305176,
+        0,
+        -1.058459997177124
+      ],
+      "sizeMeters": [
+        4.264859914779663,
+        1.5851422047708184,
+        2.116919994354248
+      ]
+    },
+    "boundingBoxEmpty": false,
+    "fileBytes": 7530964,
+    "filePath": "model.glb",
+    "generator": "glTF-Transform v4.5.1",
+    "hasNormals": true,
+    "hasSkin": false,
+    "hasTangents": true,
+    "hasUVs": true,
+    "materialCount": 10,
+    "meshCount": 1,
+    "pbr": {
+      "hasBaseColorTexture": true,
+      "hasEmissiveTexture": false,
+      "hasMetallicRoughnessTexture": false,
+      "hasNormalTexture": false,
+      "hasOcclusionTexture": false
+    },
+    "primitiveCount": 10,
+    "sceneGraphFallback": false,
+    "textureCount": 10,
+    "textureResolutions": [
+      {
+        "bytes": 240,
+        "height": 64,
+        "mimeType": "image/png",
+        "name": "52f8b1ed1a99caf4",
+        "width": 64
+      },
+      {
+        "bytes": 239,
+        "height": 64,
+        "mimeType": "image/png",
+        "name": "ee155a5067aedc58",
+        "width": 64
+      },
+      {
+        "bytes": 239,
+        "height": 64,
+        "mimeType": "image/png",
+        "name": "4bcff7fad9af8566",
+        "width": 64
+      },
+      {
+        "bytes": 240,
+        "height": 64,
+        "mimeType": "image/png",
+        "name": "8327d52b663c00e5",
+        "width": 64
+      },
+      {
+        "bytes": 239,
+        "height": 64,
+        "mimeType": "image/png",
+        "name": "cbe8aaaa64272089",
+        "width": 64
+      },
+      {
+        "bytes": 240,
+        "height": 64,
+        "mimeType": "image/png",
+        "name": "be280f3b37283edf",
+        "width": 64
+      },
+      {
+        "bytes": 238,
+        "height": 64,
+        "mimeType": "image/png",
+        "name": "c351c4d86278de41",
+        "width": 64
+      },
+      {
+        "bytes": 240,
+        "height": 64,
+        "mimeType": "image/png",
+        "name": "94514975ee623773",
+        "width": 64
+      },
+      {
+        "bytes": 238,
+        "height": 64,
+        "mimeType": "image/png",
+        "name": "04bb40fd71d1020a",
+        "width": 64
+      },
+      {
+        "bytes": 241,
+        "height": 64,
+        "mimeType": "image/png",
+        "name": "fdd2d86daa7aedfc",
+        "width": 64
+      }
+    ],
+    "triangleCount": 130902,
+    "undrawnMeshCount": 0,
+    "undrawnPrimitiveCount": 0,
+    "undrawnTriangleCount": 0,
+    "vertexCount": 140192,
+    "warnings": [
+      "glTF reader: Missing optional extension, \"KHR_materials_transmission\".",
+      "glTF reader: Missing optional extension, \"KHR_materials_ior\".",
+      "texture is below 1024px on an axis and will blur at close range: 52f8b1ed1a99caf4 (64x64), ee155a5067aedc58 (64x64), 4bcff7fad9af8566 (64x64), 8327d52b663c00e5 (64x64) (+6 more)"
+    ]
+  },
+  "license": "CC0-1.0",
+  "schema": "game_dev.asset_metadata.v1"
+}

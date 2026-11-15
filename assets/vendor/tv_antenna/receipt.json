@@ -1,0 +1,23 @@
+{
+  "completedAt": "2026-11-01T08:58:46.488Z",
+  "destination": {
+    "assetId": "television_antenna",
+    "version": "1.0.0"
+  },
+  "evidence": {
+    "blenderNormalizationPerformed": false,
+    "gpuImportTestPerformed": false,
+    "humanVisualReviewPerformed": false,
+    "modelBytesCopiedAndHashed": true,
+    "policyValidationCompleted": true,
+    "staticInspectionCompleted": true
+  },
+  "manifestSha256": "482ea7ac8fbd0a12cb00fcf8f3966d54cddc9ca5f158674695cda83abc4606e8",
+  "packageId": "pkg_5efd59046695392407110cf9",
+  "schema": "game_dev.package_receipt.v1",
+  "source": {
+    "bytes": 30828,
+    "fileName": "television_antenna.glb",
+    "sha256": "fc15bf1f1a2d0b82888c69631955ce0ea28955d8240cd3f4c5b6c9d46dff47c7"
+  }
+}

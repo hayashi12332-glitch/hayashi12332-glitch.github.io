@@ -1,0 +1,13 @@
+{
+  "author": "[redacted]",
+  "notes": "CC0; 1k official glTF source SHA256 7087958648acaa201fb3f1900e1ff61c2bfed7372f648346b4dc70d92b618274; imported and exported in Blender 4.3.2 with tangent attributes; source and included textures were checked against Poly Haven API MD5.",
+  "origin": "imported",
+  "provider": "Poly Haven",
+  "schema": "game_dev.asset_provenance.v1",
+  "source": {
+    "bytes": 2241564,
+    "fileName": "modular_airduct_circular_01.glb",
+    "sha256": "3500b82c3049788d91859d13c40c7a421d7b4a4041dc1c2ecb2ee58da31521fa"
+  },
+  "sourceUri": "https://polyhaven.com/a/modular_airduct_circular_01"
+}

@@ -1,0 +1,13 @@
+{
+  "author": "[redacted]",
+  "notes": "Source page and GLB asset metadata state CC0 1.0. Served GLB SHA256: 0c8fe3b8fd30f3418d0406bc40a2f871fe12fdf2f8a41208460259e5455e9a40. Original page hash f19aeedc31907d94039b3820551073f495ed09dadbcadcc8ce4afdcf2e022e63 is recovered by removing CDN-added asset.copyright and restoring GLB headers. Blender grouped meshes by material, decimated large parts and resized textures; output SHA256 b4ecff845bb2ace87b9126394290e568387f797e7bc1413fea42ed19d64dc531. Texture scale and offset were baked into TEXCOORD_0 by bake_scooter_uv.py to avoid unsupported KHR_texture_transform; source was preserved. Packaged source SHA256 f66c2927df78fcad8102b82d6911fb28818a13d3fad505cb20adaf2f57386cf0. Validator policy targets a maximum 80000 triangles, 13 materials, 3m dimension and UV/normal checks. Texture upper limit 1024px was checked separately by validate_platform_asset. Three.js appearance, scene placement, human visual review and device performance are separate evidence.",
+  "origin": "imported",
+  "provider": "Innerscene",
+  "schema": "game_dev.asset_provenance.v1",
+  "source": {
+    "bytes": 5321952,
+    "fileName": "urban_motor_scooter_lite_uv_baked.glb",
+    "sha256": "f66c2927df78fcad8102b82d6911fb28818a13d3fad505cb20adaf2f57386cf0"
+  },
+  "sourceUri": "https://www.innerscene.com/tools/library/3d-parts/urban-motor-scooter-9dd945f9"
+}
